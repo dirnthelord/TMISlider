@@ -6,7 +6,7 @@ TMISlider = Too Many Images Slider.
 Credits
 =======
 
-  This is a simple Qquery image slider based on two popular sliders.
+  This is a simple Qquery image slider based on two popular jQuery plugins.
 
     1. Basic Slider (http://www.basic-slider.com) Authored by John Cobb (http://www.johncobb.name)
     2. JPAGINATE: A FANCY JQUERY PAGINATION PLUGIN Authored by Cody (http://tympanus.net/codrops/author/cody/)

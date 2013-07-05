@@ -46,9 +46,11 @@ Usage
 
   Javascript
   ----------
-   jQuery(document).ready(function($) {
-        $('#my-slideshow').bjqs({
-            'height' : 320,
-            'width' : 620 
-        });
-    });   
+   <script class="secret-source">
+     jQuery(document).ready(function($) {
+          $('#my-slideshow').bjqs({
+              'height' : 320,
+              'width' : 620 
+          });
+      });   
+   </script>

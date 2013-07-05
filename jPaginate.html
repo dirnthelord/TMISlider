@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>jQuery Pagination - jPaginate</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="jPaginate - jQuery Pagination Plugin" />
+        <meta name="keywords" content="jquery, plugin, pagination, fancy" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
+		 <!-- demo.css contains additional styles used to set up this demo page - not required for the slider --> 
+		 <!-- tmiSlider.css contains the *essential* css needed for the slider to work -->
+    <link rel="stylesheet" href="css/tmiSlider.css">
+		<link rel="stylesheet" href="css/demo.css">
+       <style type="text/css"> 
+            body{ 
+                font-family: verdana;
+                padding:0px;
+                margin:0px;
+                letter-spacing:2px;
+            } 
+			
+            .content{
+                margin-top:100px;
+                padding:0px;
+                bottom:0px;
+            }
+            
+            .demo{
+                width:880px;
+                padding:10px;
+                margin:10px auto;
+                border: 1px solid #fff;
+                background-color:#f7f7f7; 
+            }
+			
+            h1{
+                color:#404347;
+                margin:5px 30px 20px 0px;
+                font-weight:100;
+            } 
+			
+			#log{
+				position:absolute;
+				top:0;
+				left:0;
+				background-color: #3A7;
+				display:block;
+				width:100%;
+				min-height:40px;
+				color:white;
+				font-weight:bold
+			}
+			
+			#banner-fade{margin:0 auto;
+				-webkit-box-shadow: 0px 1px  5px 1px #444;
+				-moz-box-shadow: 0px 5px  1px 1px #444;
+				box-shadow: 0px 1px 5px 1px #444;
+			}
+        </style>
+    </head>
+    <body>
+        
+        <div class="content">
+             
+			<div id="paginationdemo" class="demo">
+                <h1>Demo</h1>
+				 <!--  Outer wrapper for presentation only, this can be anything you like -->
+				  <div id="banner-fade">
+
+					<!-- start Basic Jquery Slider -->
+					<ul class="tmiSlider">
+					  <li><img src="img/banner (1).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (2).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (3).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (4).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (5).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (6).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (7).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (8).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (9).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (10).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (11).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (12).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (13).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (14).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (15).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (16).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (17).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (18).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (19).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (20).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (21).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (22).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (23).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (24).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (23).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (24).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (25).jpg" title="Automatically generated caption"></li>
+					  <li><img src="img/banner (26).jpg" title="Automatically generated caption"></li>
+					  
+					</ul>
+					<!-- end Basic jQuery Slider -->
+
+				  </div>
+				  <div class="clear" ></div
+            </div>
+        </div>
+          <div id="log" ></div>
+        </div>
+      	<!-- load jQuery and the plugin -->
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="js/tmiSlider-1.0.js"></script> 
+		
+      <script class="secret-source">
+        jQuery(document).ready(function($) {
+
+          $('#banner-fade').tmiSlider({ 
+		  });
+
+        });
+      </script>
+ 
+	</body>
+</html>
+
